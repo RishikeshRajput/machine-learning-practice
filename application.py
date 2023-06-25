@@ -2,7 +2,7 @@ import pickle
 import numpy as np
 import streamlit as st
 
-loaded_model=pickle.load(open("RandomForest.pkl",'rb'))
+loaded_model=pickle.load(open("C:/Users/rishi/OneDrive/Desktop/64_Rishikesh_Rajput_WaterPotability/RandomForest.pkl",'rb'))
 
 def water_quality(input_data):
     input_data_as_numpy_array=np.asarray(input_data)
